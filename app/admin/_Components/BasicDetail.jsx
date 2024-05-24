@@ -42,7 +42,7 @@ const BasicDetail = () => {
       </div>
       <textarea
         className="textarea textarea-primary mt-2 w-full"
-        placeholder="About you"
+        placeholder="About you"  onChange={(event) => onInputChange(event, "bio")}
       ></textarea>
     </div>
   );
