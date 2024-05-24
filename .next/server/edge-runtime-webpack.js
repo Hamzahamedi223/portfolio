@@ -224,7 +224,6 @@
 /******/ 		// while downloading
 /******/ 		var blockingPromises = 0;
 /******/ 		var blockingPromisesWaiting = [];
-/******/ 		
 /******/ 		// The update info
 /******/ 		var currentUpdateApplyHandlers;
 /******/ 		var queuedInvalidatedModules;
